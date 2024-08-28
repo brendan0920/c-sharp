@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Ch05-Demo": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
