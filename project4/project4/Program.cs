@@ -6,32 +6,32 @@ namespace project4
     {
         static void Main(string[] args)
         {
-            
+
             // 4-1                       
             //Console.WriteLine("Welcome to the Squares and Cubes table");
 
-            //// start continous loop
-            //string choice = "y";
-            //while (choice.ToLower() == "y")
-            //{
-            //    Console.Write("Enter an integer: ");
-            //    int nbr = int.Parse(Console.ReadLine());
+            // start continous loop
+            string choice = "y";
+            while (choice.ToLower() == "y")
+            {
+                Console.Write("Enter an integer: ");
+                int nbr = int.Parse(Console.ReadLine());
 
-            //    Console.WriteLine("\nNumber Squared Cubed");
-            //    Console.WriteLine("====== ======= =====");
+                Console.WriteLine("\nNumber Squared Cubed");
+                Console.WriteLine("====== ======= =====");
 
-            //    // Use a for loop to generate the table rows
-            //    for (int i = 1; i <= nbr; i++)
-            //    {
-            //        int square = (int)Math.Pow(i, 2);
-            //        int cube = i * square;
+                // Use a for loop to generate the table rows
+                for (int i = 1; i <= nbr; i++)
+                {
+                    int square = (int)Math.Pow(i, 2);
+                    int cube = i * square;
 
-            //        // Print the values in a formatted way
-            //        Console.WriteLine($"{i,-6} {square,-7} {cube,-5}");
-            //    }
-            //    // end coutinous loop
-            //    Console.Write("\nContinue? (y/n): ");
-            //    choice = Console.ReadLine();
+                    // Print the values in a formatted way
+                    Console.WriteLine($"{i,-6} {square,-7} {cube,-5}");
+                }
+                // end coutinous loop
+                Console.Write("\nContinue? (y/n): ");
+                choice = Console.ReadLine();
 
 
                 /*
@@ -72,32 +72,32 @@ namespace project4
                 choice = Console.ReadLine();
                 */
                 //}
-                    
 
-            //4-2
-            //Console.WriteLine("Welcome to the Factorial Calculator");
 
-            //// start continous loop
-            //string choice2 = "y";
-            //while (choice2.ToLower() == "y")
-            //{
-            //    Console.Write("\nEnter an integer that's greater than 0 and less than 10: ");
-            //    int nbr2 = Int32.Parse(Console.ReadLine());
-            //    long facNbr = 1;
-            //    for (int i = 1; i <= nbr2; i++ )
-            //    {                    
-            //            facNbr *= i;                    
-            //    }
-            //    Console.WriteLine($"The factorial of {nbr2} is {facNbr}.");
+                //4-2
+                //Console.WriteLine("Welcome to the Factorial Calculator");
 
-            //    // end coutinous loop
-            //    Console.Write("\nContinue? (y/n): ");
-            //    choice2 = Console.ReadLine();
-            //}
+                //// start continous loop
+                //string choice2 = "y";
+                //while (choice2.ToLower() == "y")
+                //{
+                //    Console.Write("\nEnter an integer that's greater than 0 and less than 10: ");
+                //    int nbr2 = Int32.Parse(Console.ReadLine());
+                //    long facNbr = 1;
+                //    for (int i = 1; i <= nbr2; i++ )
+                //    {                    
+                //            facNbr *= i;                    
+                //    }
+                //    Console.WriteLine($"The factorial of {nbr2} is {facNbr}.");
 
-            
-            //4-3
-            Console.WriteLine("Tip Calculator");
+                //    // end coutinous loop
+                //    Console.Write("\nContinue? (y/n): ");
+                //    choice2 = Console.ReadLine();
+                //}
+
+
+                //4-3
+                Console.WriteLine("Tip Calculator");
 
             // start continous loop
             //string choice3 = "y";
@@ -136,12 +136,9 @@ namespace project4
             while (choice4.ToLower() == "y")
             {
                 Console.Write("\nEnter first number: ");
-                int firstN = Int32.Parse(Console.ReadLine());
+                int x = Int32.Parse(Console.ReadLine());
                 Console.Write("Enter second number: ");
-                int secondN = Int32.Parse(Console.ReadLine());
-
-                int x = firstN;
-                int y = secondN;
+                int y = Int32.Parse(Console.ReadLine());                                    
 
                 while (x != 0)
                 {
@@ -158,6 +155,49 @@ namespace project4
                 // end coutinous loop
                 Console.Write("\nContinue? (y/n): ");
                 choice4 = Console.ReadLine();
+
+                    //===================================================
+                    //get user input
+                    Console.Write("\nEnter first number: ");
+                    int x = Int32.Parse(Console.ReadLine());
+                    Console.Write("Enter second number: ");
+                    int y = Int32.Parse(Console.ReadLine());
+
+                    x = 0;
+                    y = 0;
+
+                    //biz logic 
+                    // - compare x and y
+                    // - make the lower # x
+                    
+                    //if (x > y)
+                    //{
+                    //    int originalX = x;
+                    //    x = y;
+                    //    y = originalX;
+                    //}
+                    while (x != 0)
+                    {
+                        // - step 1 subtract x from y until y < x
+                        while (y >= x)
+                        {
+                            //y = y - x;
+                            y -= x;
+                        }
+
+                        int originalX1 = y;
+                        y = x;
+                        x = originalX1;
+                    }
+                    // - step 2 swatp x and y
+                    // - repeat 1 and 2 until x == 0
+                    // - when x is 0, y is gcd
+
+                    // output - display greatest common divisor
+                    //- print y /gcd
+
+
+
             } 
 
             
