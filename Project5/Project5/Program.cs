@@ -7,7 +7,9 @@
         {
             return new Random().Next (minVal, MaxVal);
         }
-                
+            
+        
+
         
         static void Main(string[] args)
         {

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch08-DemoMenuListCrud", "Ch08-DemoMenuListCrud\Ch08-DemoMenuListCrud.csproj", "{02170C64-8D1E-4EFF-ADDE-5124D0F472DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02170C64-8D1E-4EFF-ADDE-5124D0F472DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02170C64-8D1E-4EFF-ADDE-5124D0F472DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02170C64-8D1E-4EFF-ADDE-5124D0F472DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02170C64-8D1E-4EFF-ADDE-5124D0F472DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {133A6DB1-E15D-432B-82FC-E1221A8CB027}
+	EndGlobalSection
+EndGlobal
