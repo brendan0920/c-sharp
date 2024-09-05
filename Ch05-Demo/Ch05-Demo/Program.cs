@@ -7,144 +7,79 @@ namespace Ch05_Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the chapter 5!");
-            //// p. 139 Relational Operators (==, !=, >, etc)
+            //3-1
+            //Console.WriteLine("Welcome to the Temperature Converter");
+
             //string choice = "y";
-
-            //while (choice == "y")
+            //while (choice.ToLower() == "y")
             //{
+            //    Console.Write("\nEnter degree in Fahrenheit: ");
+            //    double farh = Double.Parse(Console.ReadLine());
 
+            //    double c = (farh - 32) * 5 / 9;
+            //    string formattedC = c.ToString("f2");
+
+            //    Console.WriteLine($"Degrees in Celsius: {formattedC}");
+
+            //    Console.Write("\nContinue? (y/n): ");
+            //    choice = Console.ReadLine();
             //}
 
-            //// p. 141 Logical Operators
-            //string lightColor = "Green";
-            //Boolean pedestrianIncrosswalk = true;
 
-            //if (lightColor == "Green" & !pedestrianIncrosswalk) {
-            //    Console.WriteLine("Go!" );
-            //}
-            //else {
-            //    Console.WriteLine("Stop!");
-            //}
+            //3-2
+            //Console.WriteLine("Welcome to the Travel Time Calculator");
 
-            //Boolean iceCream = false;
-            //Boolean payDay = true;
-            //if (iceCream && payDay)
+            //string choice = "y";
+            //while (choice.ToLower() == "y")
             //{
-            //    Console.WriteLine("Hooray!");
-            //}
-            //else if (iceCream || payDay)
-            //{
-            //    Console.WriteLine("not too bad");
-            //}
+            //    Console.Write("\nEnter miles: ");
+            //    double mile = Double.Parse(Console.ReadLine());
 
+            //    Console.Write("Enter miles per hour: ");
+            //    double mph = Double.Parse(Console.ReadLine());
 
-            // p. 143 If-Else Statements
+            //    int hour = (int)(mile / mph);
+            //    double min = ((mile / mph) - hour) * 60;
+            //    int FormattedMin = (int)min;
 
-            // p. 145 Switch Statements
-            //Console.WriteLine("Scary Adventure Game Option!");
-            //Console.WriteLine("You are at the end of a long corridor");
-            //Console.WriteLine("There are three doors, Which one will you choose?");
-            //Console.WriteLine("1 - to the right is a red door with a skull");
-            //Console.WriteLine("2 - to the left is a blue door with snakes");
-            //Console.WriteLine("3 - straight ahead is a purple door with poision");
-            //Console.Write("Which door (1/2/3)? ");
-            //int door = Int32.Parse(Console.ReadLine());
+            //    Console.WriteLine("Estimated Travel Time");
+            //    Console.WriteLine("---------------------");
+            //    Console.WriteLine($"Hours: {hour}");
+            //    Console.WriteLine($"Minutes: {FormattedMin}");
 
-            //switch (door) {
-            //    case 1:
-            //        Console.WriteLine("Red door - immenent death... you are consumed in flames");
-            //        break;
-            //    case 2:
-            //        Console.WriteLine("blue door - constant pain until death... ");
-            //        break;
-            //    case 3:
-            //        Console.WriteLine("purple door - skin is burning... bleeding");
-            //        break;
+            //    Console.Write("\nContinue? (y/n): ");
+            //    choice = Console.ReadLine();
             //}
 
-            // p. 151 Conditional / ternary Operator
-            string shippingStatus = "2-day";
-            //if 2day, charge is $5, otherwise charge is $2
-            double charge = 0;
 
-            //if (shippingStatus == "2-day")
-            //    charge = 5;
-            //else
-            //    charge = 2;
-            //Console.WriteLine($"charge = {charge}");
-            charge = shippingStatus == "2-day" ? 5 : 2;
-            Console.WriteLine($"charge = {charge}");
+            //3-3
+            Console.WriteLine("Welcome to the Interest Calculator");
 
-
-            // p. 155 While vs Do-While Loops
-
-            // p. 157 For Loops
-            //count to 10!
-            for (int i = 0; i < 10; i++)
+            string choice = "y";
+            while (choice.ToLower() == "y")
             {
-                Console.WriteLine($"i is {i}");
-            }
+                Console.Write("\nEnter loan amount: ");
+                decimal loan = Decimal.Parse(Console.ReadLine());
+                
 
-            Console.WriteLine("2 to 20 by 2's...");
-            for (int i = 2, i <= 20; i += 2) {
-            Console.WriteLine($"i is {i}");
-            }
-            
-            // p. 159 Continue/Break in While / Foor Loops
+                //Console.Write("\nEnter interest rae: ");
+                //double rate = Double.Parse(Console.ReadLine());
 
-            while (true) {
-                //do stuff
-                Console.WriteLine("In an infinite loop!");
-                Console.Write("are you bored yet (y/n)? ");
-                string answer = Console.ReadLine().ToLower();
-                if (answer == "y")
-                {
-                    break;
-            }
+                Cosole.WriteLine($"Loan amount: {loan.ToString("c")("f2")}");
 
 
-            //while loop w/ break and continue
-            // prompt for even number
-            //muliple even number by 10
-            // break when odd number entered
-            while (true) {
-                int number = 0;
 
-                Console.WriteLine("Enter even number");
-                number = Int32.Parse(Console.ReadLine());
 
-                if (number > 10)
-                {
-                    Console.WriteLine("nbr greater than 10, try again");
-                    continue;
-                } 
-                else if (number % 2 == 0)
-                {
-                    Console.WriteLine("even number entered");
-                } 
-                else
-                {
-                    Console.WriteLine("odd num entered.. booo");
-                    break;
-                }
-                int result = number * 10;
-                Console.WriteLine($"result is {result}");
+                Console.Write("\nContinue? (y/n): ");
+                choice = Console.ReadLine();
             }
 
 
 
-                // p. 161 Integrated Debugger
 
 
 
 
-
-
-
-
-
-                Console.WriteLine("bye");
         }    
     }
 }

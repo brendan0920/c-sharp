@@ -129,7 +129,7 @@ namespace Ch06DemosTemplate {
             //generate 100 random #s, between 1 and 100
             for (int i = 0; i < 100; i++)
             {
-                Console.WriteLine($"random int: {GenerateRanomNumber(1, 101)}");
+                Console.WriteLine($"random int: {GenerateRandomNumber(1, 101)}");
             }
 
 
@@ -143,7 +143,7 @@ namespace Ch06DemosTemplate {
         
         }
 
-        private static int GenerateRanomNumber(int minVal, int maxVal) {
+        private static int GenerateRandomNumber(int minVal, int maxVal) {
             return new Random().Next(minVal, maxVal);
         }
     }
