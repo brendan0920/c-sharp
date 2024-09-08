@@ -11,7 +11,7 @@
 
 
         public Product() {
-            ObjectCount++;
+            //ObjectCount++;
         }
         public Product(string code, string description, decimal price)
         {
@@ -25,7 +25,7 @@
         // public string GetDetail()
         public override string ToString()
         {
-            return $"Product: Code - '{this.Code}', Description - '{this.Description}', Price - {this.Price}" + 
+            return $"Product: Code - '{this.Code}', Description - '{this.Description}', Price - {this.Price}, " + 
                 $"ObjectCount: {Product.ObjectCount}";
         }
 

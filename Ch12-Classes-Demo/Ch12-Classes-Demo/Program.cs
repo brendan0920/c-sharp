@@ -25,15 +25,17 @@
 
             // using constructor to pass parameters
             Product p2 = new Product("Java", "Murach's Jave programming", 59.50m);
-
+            Console.WriteLine(p2);
             Product p3 = new Product("andr", "Murach's Jave programming", 62.50m);
             //Console.WriteLine(p3.GetDetails());
-
+            Console.WriteLine(p3);
+            Console.WriteLine();
+            Console.WriteLine();
             //inheritance
-            Console.WriteLine("pass p1 directly to WriteLine: " + p1.ToString());
+            Console.WriteLine("pass p1 directly to WriteLine: " + p1);
             //by defailt, ToString is applied witout the its keyword
             Console.WriteLine(p1);
-
+            Console.WriteLine();
             List<Product> products = new List<Product>();
 
             products.Add(p1);
