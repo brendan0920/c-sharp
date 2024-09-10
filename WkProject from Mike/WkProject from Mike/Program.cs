@@ -1,4 +1,5 @@
-﻿namespace WkProject_from_Mike
+﻿
+namespace WkProject_from_Mike
 {
     internal class Program
     {
@@ -10,8 +11,8 @@
             v1.Name = "Vendor A";
             v1.Address = "123 Main st";
             v1.AmountDue = 1203.69m;
-
-            v1.PrintChecks();
+            
+            //v1.PrintChecks();
             Console.WriteLine(v1.PrintChecks());
 
             Employee e1 = new Employee();
@@ -23,7 +24,7 @@
             e1.HourlyRate = 56.50m;
             e1.Salary = 0;
             
-            e1.PrintChecks();
+            //e1.PrintChecks();
             Console.WriteLine(e1.PrintChecks());
 
             Employee e2 = new Employee();
@@ -35,7 +36,7 @@
             e1.HourlyRate = 0;
             e2.Salary = 100_000m;
 
-            e2.PrintChecks();
+            //e2.PrintChecks();
             Console.WriteLine(e2.PrintChecks());
 
             Manager m1 = new Manager();
@@ -46,7 +47,7 @@
             m1.Hour = 40;
             m1.Salary = 150_000m;
 
-            m1.PrintChecks();
+            //m1.PrintChecks();
             Console.WriteLine(m1.PrintChecks());
 
             Contractor c1 = new Contractor();
@@ -56,15 +57,11 @@
             c1.Hour = 30;
             c1.HourlyRate = 36.50m;
 
-           c1.PrintChecks();
+            //c1.PrintChecks();
             Console.WriteLine(c1.PrintChecks());
                 
         }
 
 
-        //static void PrintChecks(Vendor vendor)
-        //{
-        //    Console.WriteLine(Vendor.PrintChecks());
-        //}
     }
 }

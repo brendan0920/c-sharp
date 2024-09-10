@@ -17,8 +17,7 @@
     {
         decimal Hour { get; set; }
         decimal HourlyRate { get; set; }
-        decimal Salary { get; set; }
-        
+        decimal Salary { get; set; }        
     }
 
 
