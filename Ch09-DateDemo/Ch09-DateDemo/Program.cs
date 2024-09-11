@@ -40,7 +40,7 @@
 
             DateTime myDate5 = DateTime.Today;
             Console.WriteLine("Today is " + myDate5);
-
+            Console.WriteLine();
             Console.WriteLine(myDate4.ToShortDateString());
             Console.WriteLine(myDate4.ToLongDateString());
             Console.WriteLine(myDate4.ToString("MMM/ddd-yyyy"));
