@@ -28,6 +28,7 @@
                     totalScore += dice;
                     numberOfPlay++;
                 }
+
                 Console.WriteLine($"\nYou have played {numberOfPlay} games\nYour Total Score is {totalScore}");
                                 
                 //DateTime finish = DateTime.Now;

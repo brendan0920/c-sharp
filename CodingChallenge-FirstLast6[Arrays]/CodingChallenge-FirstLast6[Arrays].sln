@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge-FirstLast6[Arrays]", "CodingChallenge-FirstLast6[Arrays]\CodingChallenge-FirstLast6[Arrays].csproj", "{AEA2AF0F-EF5D-4217-8369-F2C5F6C92B7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA2AF0F-EF5D-4217-8369-F2C5F6C92B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA2AF0F-EF5D-4217-8369-F2C5F6C92B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA2AF0F-EF5D-4217-8369-F2C5F6C92B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA2AF0F-EF5D-4217-8369-F2C5F6C92B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E14FE585-5411-4729-878C-051BD56D55EF}
+	EndGlobalSection
+EndGlobal
