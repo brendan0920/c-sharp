@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Polymorphism");
-            //Polymorphism = Gree word that means to "have many forms"
-            //               Objects can be identified aby more than one type
+            //Polymorphism = Greek word that means to "have many forms"
+            //               Objects can be identified any more than one type
             //               Ex. A Dog is also: Canince, Animal, Organism
 
             Car car = new Car();

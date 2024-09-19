@@ -4,7 +4,7 @@ namespace HangmanConsole_Demo.Model
 {
     public class HangmanWords
     {
-        List<string> words = new();
+        List<string> words { get; set;}
 
         public HangmanWords()
         {
