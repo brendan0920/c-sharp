@@ -22,7 +22,7 @@
         }
     }
 
-
+    // Parent class
     class Vehicle
     {
         public virtual void Go()
@@ -30,6 +30,8 @@
 
         }
     }
+
+    // Child classes
 
     class Car : Vehicle
     {
