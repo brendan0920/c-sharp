@@ -23,11 +23,7 @@
 
         
 
-        public string GetRandomWord()
-        {
-            Random random = new Random();
-            return words[random.Next(words.Count)];
-        }
+        
 
         public string GetHiddenWord(string word)
         {
